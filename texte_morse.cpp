@@ -4,6 +4,8 @@
 #include <string>
 #include <cstring>
 
+// cette classe traduit un texte morse ne un texte en français
+
 // espace entre les mots >= 2 et espace entre les lettres 1
 
 texte_morse_to_fr::texte_morse_to_fr() : indice(0) {};

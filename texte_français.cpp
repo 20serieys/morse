@@ -4,6 +4,8 @@
 #include <string>
 #include <cstring>
 
+// Cette classe va servir à convertir un texte en français en texte en morse.
+
 std::string texte_fr_to_morse::lettre_to_morse(char ch){
     return dico_f_t_m(ch);
 }
